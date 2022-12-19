@@ -14,7 +14,7 @@ const Footer = () => {
           <Col lg="3" md="4" sm="6">
             <div className=" footer__logo text-start">
               <img src={logo} alt="logo" />
-              <h5>Food Valley </h5>
+              <h5>Food's Mood </h5>
               <p>
                
               </p>

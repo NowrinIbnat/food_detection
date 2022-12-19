@@ -32,20 +32,20 @@ import TestimonialSlider from "../components/UI/slider/TestimonialSlider.jsx";
 
 const featureData = [
   {
-    title: "Quick Delivery",
+    title: "Quick Search",
     imgUrl: featureImg01,
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, doloremque.",
+    desc: "Hurry up to find your food",
   },
 
   {
-    title: "Super Dine In",
+    title: "Easy Checkout",
     imgUrl: featureImg02,
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, doloremque.",
+    desc: "checkout easily from anywhere.",
   },
   {
-    title: "Easy Pick Up",
+    title: "Resourceful",
     imgUrl: featureImg03,
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, doloremque.",
+    desc: "Variety of food collection.",
   },
 ];
 
@@ -123,7 +123,7 @@ const Home = () => {
                     <span className="shipping__icon">
                       <i class="ri-car-line"></i>
                     </span>{" "}
-                    No shipping charge
+                    Hassle free
                   </p>
 
                   <p className=" d-flex align-items-center gap-2 ">
@@ -251,7 +251,7 @@ const Home = () => {
             <Col lg="6" md="6">
               <div className="why__tasty-treat">
                 <h2 className="tasty__treat-title mb-4">
-                  Why <span> Food Valley?</span>
+                  Why <span> Food's Mood?</span>
                 </h2>
                 <p className="tasty__treat-desc">
              
@@ -264,7 +264,7 @@ const Home = () => {
                       foods
                     </p>
                     <p className="choose__us-desc">
-                     
+                    to serve best and fresh food 
                     </p>
                   </ListGroupItem>
 
@@ -273,8 +273,7 @@ const Home = () => {
                       <i class="ri-checkbox-circle-line"></i> Quality support
                     </p>
                     <p className="choose__us-desc">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Qui, earum.
+                      find quality support
                     </p>
                   </ListGroupItem>
 
@@ -284,7 +283,7 @@ const Home = () => {
                       location{" "}
                     </p>
                     <p className="choose__us-desc">
-                    
+                    detect from any location 
                     </p>
                   </ListGroupItem>
                 </ListGroup>
@@ -315,14 +314,12 @@ const Home = () => {
           <Row>
             <Col lg="6" md="6">
               <div className="testimonial ">
-                <h5 className="testimonial__subtitle mb-4">Testimonial</h5>
+                <h5 className="testimonial__subtitle mb-4"> Inspiration </h5>
                 <h2 className="testimonial__title mb-4">
                   What our <span>customers</span> are saying
                 </h2>
                 <p className="testimonial__desc">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Distinctio quasi qui minus quos sit perspiciatis inventore
-                  quis provident placeat fugiat!
+                As a customer service representative, they are enable to handle criticisms, complaints, and special requests from time-to-time. They handle these queries as customer retention is vital for a company to survive.
                 </p>
 
                 <TestimonialSlider />
